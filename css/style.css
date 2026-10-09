@@ -303,14 +303,3 @@ header{
 .team_member:hover .team_avatar {
     transform: scale(1.08);
 }
-
-/* ---------- ДОСТУПНОСТЬ ---------- */
-@media (prefers-reduced-motion: reduce) {
-    .scroll-anim,
-    .header_button::before,
-    .header_button::after {
-        animation: none !important;
-        transition: none !important;
-        opacity: 1;
-    }
-}
